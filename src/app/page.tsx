@@ -1,9 +1,8 @@
-import { NavBar } from "./components/navbar/NavBar"
+import { Container } from "./components/contenedor/Container"
 
 export default function Home() {
   return (
-    <NavBar></NavBar>
+    <Container />
   );
 }
 
- 
