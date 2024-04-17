@@ -5,10 +5,10 @@ export function Publi(){
         <div>
 
         <div className="h-[320px] bg-[#020016] py-8 flex flex-row relative">
-            <Image src={"/images/camisas.png"} alt="camisas" width={520} height={580} />
+            <Image src={"/images/camisas.png"} className="hidden md:block" alt="camisas" width={520} height={580} />
             <div>
-                <p className="text-white w-[400px] mb-2 font-bold text-4xl">Feel Casual Every Day Not Just Fashion, But Class.</p>
-                <small className="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse dignissimos, itaque numquam corrupti sunt perspiciatis? Distinctio eius ipsa sint ducimus temporibus velit repellat doloremque mollitia cum iste, quidem nemo laboriosam?</small>
+                <p className="mx-auto text-white w-[400px] mb-2 font-bold text-4xl">Feel Casual Every Day Not Just Fashion, But Class.</p>
+                <p className="text-white text-sm mx-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse dignissimos, itaque numquam corrupti sunt perspiciatis? Distinctio eius ipsa sint ducimus temporibus velit repellat doloremque mollitia cum iste, quidem nemo laboriosam?</p>
                 <button className="bg-[#FF0042] text-white px-6 py-3 mt-3 ml-4 hover:scale-105 ease-out duration-300 rounded-full block">View All Producst</button>
             </div>
             <div className="w-10 h-32 bg-[#FF0042] absolute bottom-[-35px] right-0"></div>
