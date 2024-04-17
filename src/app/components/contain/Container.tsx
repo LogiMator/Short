@@ -3,7 +3,7 @@ import { NavBar } from "../navbar/NavBar"
 
 export function Container() {
     return (
-    <div className="bg-[#020016] text-white flex">
+    <main className="bg-[#020016] text-white flex">
         <div className="w-[75%]">
             <NavBar />
                 <div className="flex flex-row ">
@@ -29,6 +29,6 @@ export function Container() {
     
         <div className="w-10 h-32 bg-[#FF0042] absolute bottom-[-35px] "></div>
 
-    </div>
+    </main>
     )
 }
