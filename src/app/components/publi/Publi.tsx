@@ -19,10 +19,10 @@ export function Publi(){
 
             <div className="my-7 ml-[64px]">
                 <p className="text-[#020016] text-2xl mb-4 font-extrabold">About Beware of Weirdo</p>
-                <p className="text-base w-full ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eum quidem ratione iusto dignissimos nisi laboriosam voluptates atque sed, vero fuga. Obcaecati ut excepturi, vitae blanditiis distinctio harum molestias voluptatum.</p>
+                <p className="text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eum quidem ratione iusto dignissimos nisi laboriosam voluptates atque sed, vero fuga. Obcaecati ut excepturi, vitae blanditiis distinctio harum molestias voluptatum.</p>
             </div>
 
-            <div className="row-span-2 relative hidden">
+            <div className="row-span-2 relative hidden lg:block">
                 <div className="left-[250px] -rotate-[35deg] bottom-[230px] absolute bg-[#FF0034] leading-none w-[160px] p-4 text-center text-white font-bold z-0">
                     <p className="text-[36px] ">3,831</p>
                     <p className="text-[18px] ">Happy Custom</p>
@@ -30,12 +30,12 @@ export function Publi(){
                 <Image src={"/images/pose3.png"} className="absolute bottom-0 " alt="modelo" width={420} height={380}/>
             </div>
 
-            <div  className="relative">
-                <div className="left-[250px] hidden -rotate-[35deg] bottom-[230px] absolute bg-[#FF0034] leading-none w-[160px] p-4 text-center text-white font-bold z-0">
+            <div  className="relative hidden md:block">
+                <div className="left-[250px] -rotate-[35deg] bottom-[230px] absolute bg-[#FF0034] leading-none w-[160px] p-4 text-center text-white font-bold z-0">
                     <p className="text-[36px] ">5,821</p>
                     <p className="text-[18px] ">Products Sold</p>
                 </div>
-                <Image src={"/images/pose1.png"} className="relative hidden ml-[64px] z-10" alt="modelo" width={280} height={420}/>
+                <Image src={"/images/pose1.png"} className="relative ml-[64px] z-10" alt="modelo" width={280} height={420}/>
             </div>
             
         </div>

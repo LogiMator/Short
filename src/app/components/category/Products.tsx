@@ -45,7 +45,7 @@ export function Products(){
             product.map((product, index) => {
                 return(
                     <div className="relative" key={index}>
-                            <div className="w-[180px] h-[320px] bg-[#F9F9FB] top-[-50px] absolute"></div>
+                            <div className="w-[180px] h-[320px] bg-[#3d3db3] hidden top-[-50px] absolute"></div>
                                 <Image className="hover:scale-105 hover:drop-shadow-2xl relative ease-out duration-300 mb-2" src={"/images/buzo.png"} alt="buzo" width={220} height={380} />
                             
                             <div className="ml-4">
