@@ -14,7 +14,7 @@ export function Models() {
                 </div>
             </div> 
                     
-            <div className=" relative flex flex-col bg-[#FDF8F4] items-center">
+            <div className=" relative flex flex-col bg-[#FDF8F4] items-center hidden md:block">
                 <Image src={"/images/mandarina.png"} className="hover:drop-shadow-2xl hover:scale-105 ease-out duration-300" width={300} height={420} alt="modelo"/>
                 <div className="w-[80%] h-[20%] text-white absolute text-center p-[24px] bottom-8 place-items-center bg-[#020016]">
                     <p className="font-bold">Distress Bucket Hats</p>
@@ -22,7 +22,7 @@ export function Models() {
                 </div>
             </div>
 
-            <div className=" relative flex flex-col bg-[#FFF6F9] items-center">
+            <div className=" relative flex flex-col bg-[#FFF6F9] items-center hidden md:block">
                 <Image src={"/images/chico.png"} className="mt-12 hover:drop-shadow-2xl hover:scale-105 ease-out duration-300" width={300} height={420} alt="modelo" />
                 <div className="w-[80%] h-[20%] text-white absolute text-center p-[24px] bottom-8 place-items-center bg-[#020016]">
                     <p className="font-bold">Distress Bucket Hats</p>
