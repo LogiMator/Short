@@ -11,7 +11,7 @@ const IconsApp: IconType[] = [IoIosSearch, GoPerson, LuShoppingCart];
 export function NavBar() {
     return(
     <nav className="">
-        <div className="flex h-20  text-sm md:w-full sm:justify-center sm:text-base lg:w-full lg:justify-end items-center lg:pr-24 gap-4">
+        <div className="flex h-20 text-sm md:w-full sm:justify-center sm:text-base lg:w-full lg:justify-end items-center lg:pr-24 gap-4">
         <a href="#" className="hover:text-[#F00101] hover:underline hover:underline-offset-4 ease-out duration-300">Home</a>
         <a href="#" className="hover:text-[#F00101] hover:underline hover:underline-offset-4 ease-out duration-300">About</a>
         <a href="#" className="hover:text-[#F00101] hover:underline hover:underline-offset-4 ease-out duration-300">Shop</a>

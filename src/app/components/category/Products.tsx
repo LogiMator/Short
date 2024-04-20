@@ -17,11 +17,11 @@ const product = [
 
 export function Products(){
     return (
-        <section className="pt-8 flex">
+        <section className="pt-8 flex flex-col md:flex-row items-center">
 
         <div className="w-[30%] flex flex-col items-center">
-                <p className="text-[#020016] leading-tight mt-[10%] font-extrabold text-[32px] w-[200px]">Explore Our Products</p>
-                <p className="text-[#FF0042] my-2 font-bold">Select the products</p>
+                <p className="text-[#020016] leading-tight font-extrabold text-[32px] text-center w-[320px] md:w-[200px]">Explore Our Products</p>
+                <p className="text-[#FF0042] my-2 font-bold text-center w-[320px] ">Select the products</p>
                 
                 <div className="flex flex-col">
                     <label htmlFor="Oversized Flannels">
@@ -40,12 +40,12 @@ export function Products(){
 
         </div>
 
-        <div className="w-[70%] h-[480px] flex flex-row items-center justify-center gap-2 ">
+        <div className="w-[80%] h-[360px] md:h-[450px] flex flex-row items-center justify-center gap-2 ">
         {
             product.map((product, index) => {
                 return(
                     <div className="relative" key={index}>
-                            <div className="w-[180px] h-[320px] bg-[#3d3db3] hidden top-[-50px] absolute"></div>
+                            <div className="hidden md:block w-[180px] h-[320px] bg-[#F7FCF8] top-[-50px] absolute"></div>
                                 <Image className="hover:scale-105 hover:drop-shadow-2xl relative ease-out duration-300 mb-2" src={"/images/buzo.png"} alt="buzo" width={220} height={380} />
                             
                             <div className="ml-4">
