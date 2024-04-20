@@ -6,7 +6,7 @@ const product = [
         price: "150.000"
     },
     {
-        productName: "Bucket Hats",
+        productName: "Urban T-Shirts",
         price: "180.000"
     },
     {
